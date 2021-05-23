@@ -1,0 +1,8 @@
+.wrappers{
+
+    background-color: black !important;
+}
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+}

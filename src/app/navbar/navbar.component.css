@@ -1,0 +1,8 @@
+nav {
+    background-color: black!important;
+    opacity: 70%;
+    padding: 20px;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
