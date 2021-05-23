@@ -1,0 +1,34 @@
+.body{
+    background-color: rgb(29, 36, 41);
+}
+.card{
+    border:solid 4px rgb(29, 36, 41);
+    border-radius: 15px;
+    -webkit-box-shadow: 7px 2px 25px -1px rgba(0,0,0,0.7); 
+box-shadow: 7px 2px 25px -1px rgba(0,0,0,0.7);
+
+}
+/* .card-groups{
+    display: flex;
+    flex-direction: row;
+   
+} */
+
+.watch{
+    font-size: 18px;
+  
+    text-decoration: none;
+    color: #4b39ef;
+}
+.watch:hover{
+    color: red;
+}
+/* 
+.card-group1{
+    display: flex;
+    flex-direction: row;
+} */
+
+.text-grey{
+    color: rgb(153, 153, 153);
+}

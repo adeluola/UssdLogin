@@ -1,0 +1,54 @@
+
+
+ul li a{
+    
+    text-decoration: none;
+    color: #a3a3a3;
+    font-weight: bold;
+   
+}
+
+ul li{
+    list-style-type: none;
+   font-size: 14px;
+   line-height: 20px;
+}
+
+h4{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+ul li a:hover{
+    color: rgb(216, 216, 216);
+}
+
+
+
+
+.logo{
+    color: white;
+}
+
+.copyright{
+   
+    color:white ;
+    text-align: center;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #262d34;
+}
+
+
+
+.jumbotron {
+    margin-bottom: 0px;
+ }
+
+ .list-group{
+
+     padding: 10px 0px;
+ }

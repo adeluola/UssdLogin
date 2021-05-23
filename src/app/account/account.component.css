@@ -1,0 +1,39 @@
+.account{
+    height: 30vh;
+    background-color: rgb(15, 15, 61);
+}
+
+.title{
+    color: white;
+   
+    
+}
+
+.title h1{
+    font-weight: bold;
+
+}
+
+ 
+.padding{
+ 
+ 
+    padding: 12px 50px;
+}
+
+
+.jumbotron {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    background-color: #4b39ef;
+    margin-top: 0px;
+ }
+a{
+    color: white;
+    text-decoration: none;
+  
+}
+button{
+    border-radius: 10px;
+}

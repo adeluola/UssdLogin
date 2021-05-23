@@ -1,0 +1,24 @@
+
+<div class="body"> 
+<div class="faq">
+    <div class="text-center text-white margin">
+    <h1> {{title}} </h1>
+</div>
+
+
+<div class="container col-8 col-xm-12 ">
+<div class="card text-white mb-3 " style="background-color: rgb(0, 0, 0,0.3);" *ngFor="let FQA of FQAs">
+    <div class="card-header">
+       <h3>{{FQA.title}}</h3> 
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+      <p class="text-grey">{{FQA.reply}}</p>
+         
+        </blockquote>
+      </div>
+</div>
+</div>  
+</div>
+
+</div>
