@@ -5,16 +5,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { FooterComponent } from './footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AccountComponent } from './account/account.component';
+import { FOAComponent } from './foa/foa.component';
+import { TutorialsComponent } from './tutorials/tutorials.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    FooterComponent,
+    AccountComponent,
+    FOAComponent,
+    TutorialsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

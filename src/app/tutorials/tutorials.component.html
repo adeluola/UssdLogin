@@ -1,0 +1,37 @@
+
+<div class="body">
+    
+<div class="text-center text-white mb-5" >
+    <h1>{{title}}</h1>
+</div>
+    
+<div class="container col-10 ">
+<div class=" row">
+   <div class="card-group mb-2">
+
+
+  
+    <div class="card text-white  mb-5 mx-2" style="background-color: hsl(0, 0%, 0% ,30%);" *ngFor="let tutorial of tutorials">
+        <div class="card-header">
+            <img src="../../assets/images/youtube.png" alt="" style="width: 40px;height: 40px;">
+
+            <a  class="text-white" href="">Channel Name</a>
+            
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">{{tutorial.title}}</h2>
+          <p class="card-text text-grey">{{tutorial.details}}</p>
+          <a href="{{tutorial.link}}" class="watch">Watch Now</a>
+        </div>
+       
+             
+    
+       
+      </div>
+
+
+
+</div>
+</div>
+</div>
+</div>
