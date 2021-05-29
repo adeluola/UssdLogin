@@ -4,18 +4,19 @@
 .card{
     border:solid 4px rgb(29, 36, 41);
     border-radius: 15px;
-    -webkit-box-shadow: 7px 2px 25px -1px rgba(0,0,0,0.7); 
-box-shadow: 7px 2px 25px -1px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 3px 2px 20px -1px rgba(0,0,0,0.79); 
+    box-shadow: 5px 2px 20px -1px rgba(0,0,0,0.79);
+   
 
 }
-/* .card-groups{
+/* .card-group{
     display: flex;
     flex-direction: row;
    
 } */
 
 .watch{
-    font-size: 18px;
+    font-size: 80%;
   
     text-decoration: none;
     color: #4b39ef;
@@ -23,12 +24,28 @@ box-shadow: 7px 2px 25px -1px rgba(0,0,0,0.7);
 .watch:hover{
     color: red;
 }
-/* 
-.card-group1{
-    display: flex;
-    flex-direction: row;
-} */
+ 
+
 
 .text-grey{
     color: rgb(153, 153, 153);
 }
+ /* .card-body{
+    height: 250px;
+}  */
+
+
+  /* @media only screen and (max-width: 950px) {
+
+.card{
+    width:50%
+} */
+
+/* .card-groups{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}  */
+
+
+/* }   */

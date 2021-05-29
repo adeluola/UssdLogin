@@ -16,7 +16,7 @@ ul li{
 
 h4{
     color: white;
-    font-size: 16px;
+ font-size: 16px;
     font-weight: bold;
     margin-left: 40px;
 }
@@ -48,7 +48,3 @@ ul li a:hover{
     margin-bottom: 0px;
  }
 
- .list-group{
-
-     padding: 10px 0px;
- }

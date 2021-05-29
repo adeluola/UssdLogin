@@ -1,0 +1,11 @@
+.margin{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.text-grey{
+    color: rgb(141, 140, 140);
+}
+
+.card-text{
+    font-size: 20px;
+}

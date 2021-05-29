@@ -8,8 +8,8 @@
 .card{
     border:solid 4px rgb(29, 36, 41);
     border-radius: 10px;
-    -webkit-box-shadow: 7px 2px 25px -1px rgba(0,0,0,0.79); 
-box-shadow: 7px 2px 25px -1px rgba(0,0,0,0.79);
+    -webkit-box-shadow: 3px 2px 20px -1px rgba(0,0,0,0.79); 
+box-shadow: 5px 2px 20px -1px rgba(0,0,0,0.79);
 
 }
 

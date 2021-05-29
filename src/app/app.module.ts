@@ -10,6 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AccountComponent } from './account/account.component';
 import { FOAComponent } from './foa/foa.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TutorialsComponent } from './tutorials/tutorials.component';
     FooterComponent,
     AccountComponent,
     FOAComponent,
-    TutorialsComponent
+    TutorialsComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
